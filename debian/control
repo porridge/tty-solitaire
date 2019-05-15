@@ -1,0 +1,15 @@
+Source: tty-solitaire
+Section: games
+Priority: optional
+Maintainer: Marcin Owsiany <porridge@debian.org>
+Build-Depends: debhelper (>= 9), libncursesw5-dev
+Standards-Version: 3.9.8
+Homepage: https://github.com/mpereira/tty-solitaire
+Vcs-Git: https://github.com/mpereira/tty-solitaire.git
+Vcs-Browser: https://github.com/mpereira/tty-solitaire
+
+Package: tty-solitaire
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: klondike solitaire game for text terminal
+ This game runs in any terminal with UTF-8 support.

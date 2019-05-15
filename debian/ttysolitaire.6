@@ -1,0 +1,46 @@
+.\"                                      Hey, EMACS: -*- nroff -*-
+.\" (C) Copyright 2019 Marcin Owsiany <porridge@debian.org>,
+.\"
+.\" First parameter, NAME, should be all caps
+.\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
+.\" other parameters are allowed: see man(7), man(1)
+.TH TTYSOLITAIRE 6 "May 15 2019"
+.\" Please adjust this date whenever revising the manpage.
+.\"
+.\" Some roff macros, for reference:
+.\" .nh        disable hyphenation
+.\" .hy        enable hyphenation
+.\" .ad l      left justify
+.\" .ad b      justify to both left and right margins
+.\" .nf        disable filling
+.\" .fi        enable filling
+.\" .br        insert line break
+.\" .sp <n>    insert n+1 empty lines
+.\" for manpage-specific macros, see man(7)
+.SH NAME
+ttysolitaire \- klondike solitaire game for text terminal
+.SH SYNOPSIS
+.B ttysolitaire
+.RI [ -v|--version ]
+.br
+.B ttysolitaire
+.RI [ -h|--help ]
+.br
+.B ttysolitaire
+.RI [ -p|--passes=NUMBER ]
+.SH DESCRIPTION
+.B ttysolitaire
+is an interactive klondike solitaire game for a text terminal.
+It displays usage information on startup.
+.SH OPTIONS
+This program follows the usual GNU command line syntax, with long
+options starting with two dashes (`-').
+.TP
+.B \-h, \-\-help
+Show summary of options.
+.TP
+.B \-v, \-\-version
+Show version of program.
+.TP
+.B \-p NUMBER, \-\-passes=NUMBER
+Set the number of passes through the deck.

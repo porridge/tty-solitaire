@@ -1,0 +1,5 @@
+tty-solitaire (1.1.1-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Marcin Owsiany <porridge@debian.org>  Wed, 15 May 2019 21:15:27 +0200

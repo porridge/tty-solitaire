@@ -1,0 +1,2 @@
+Test-Command: (sleep 1;echo -n " ";sleep 1;echo -n " ";sleep 1;echo q)|ttysolitaire 
+Features: test-name=smoke
