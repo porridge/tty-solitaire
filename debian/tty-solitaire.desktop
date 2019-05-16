@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=TTY Solitaire
+Comment=klondike solitaire game for text terminal
+Exec=ttysolitaire
+Terminal=true
+Type=Application
+Encoding=UTF-8
+Categories=Games;Cards;
+# vi: encoding=utf-8
